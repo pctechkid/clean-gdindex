@@ -4,34 +4,34 @@
 
 [README](README.md) | [中文文档](README_zh.md)
 
-## Demo  
+## 预览  
 
 Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/) 
 
-## Log
+## 更新日志
 
 ### 2020-4-29
 
-- Support multi disk switching
-- Add version detection
-- Optimize search results
-- Optimize page display
+- 支持多盘切换
+- 添加版本检测
+- 优化搜索结果
+- 优化页面显示
 
-## Use
+## 使用
 
-Since the original author of `goindex` has deleted the `donwa/goindex` warehouse, the extension and modification will be made on this version [yanzai/goindex](https://github.com/yanzai/goindex) in the future
+由于`goindex`原作者已将`donwa/goindex`仓库删除，以后将在这个版本上[yanzai/goindex](https://github.com/yanzai/goindex)进行扩展修改
 
-1. Replace `index.js` with [index.js](https://oss.achirou.workers.dev/0:/go2index/index.js?a=view)
-2. Modify the app.js used in index.js of goindex to `https://cloud.jsonpop.cn/go2index/last/app.mini.js`
+1. 替换`index.js`为[index.js](https://oss.achirou.workers.dev/0:/go2index/index.js?a=view)
+2. 修改goindex的index.js中所使用的app.js为(https://cloud.jsonpop.cn/go2index/last/app.mini.js)
 
-> The theme file is in the dist directory
+> 主题文件在dist目录
 
-## TODO
+## 即将支持
 
-- [x] Drive switch
-- [ ] Pagination display
-- [ ] Picture list display
-- [ ] More file format preview
+- [x] 多盘切换
+- [ ] 分页显示
+- [ ] 图片列表显示
+- [ ] 更多文件格式预览
 
 GoIndex  
 ====
@@ -42,6 +42,7 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 [index.js](https://github.com/donwa/goindex/) is the content of the Workers script.  
 
 ## Deployment  
+
 1.Install `rclone` software locally  
 2.Follow [https://rclone.org/drive/]( https://rclone.org/drive/) bind a drive  
 3.Execute the command`rclone config file` to find the file `rclone.conf` path  
@@ -50,6 +51,7 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 6.Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
 
 ## Quick Deployment  
+
 1.Open https://installen.gd.workers.dev/  
 2.Auth and get the code  
 3.Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)  
@@ -57,4 +59,5 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 
 
 ## About  
+
 Cloudflare Workers allow you to write JavaScript which runs on all of Cloudflare's 150+ global data centers.  
