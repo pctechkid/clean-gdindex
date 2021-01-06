@@ -1,7 +1,7 @@
 var authConfig = {
     "siteName": "", // 网站名称
     "root_pass": "",  // 根目录密码，优先于.password
-    "version" : "be1edd2", // 程序版本
+    "version" : "f50c9f6", // 程序版本
     "theme" : "acrou",
     /*"client_id": "202264815644.apps.googleusercontent.com",
     "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",*/
