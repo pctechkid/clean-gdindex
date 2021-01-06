@@ -35,7 +35,7 @@ var authConfig = {
      * 如果设置的值过小，会导致搜索结果页面滚动条增量加载（分页加载）失效；
      * 此值的大小影响搜索操作的响应速度。
      */
-    "search_result_list_page_size": 1000
+    "search_result_list_page_size": 50
 };
 
 /**
